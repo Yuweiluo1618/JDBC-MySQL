@@ -19,8 +19,7 @@ public class JDBCTest1 {
 			String user = "root";
 			String password ="333";
 			connection = DriverManager.getConnection(url, user, password);
-			statement = connection.createStatement(); 
-			String sql= "insert into";
+			statement = connection.createStatement();
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
