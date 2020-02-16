@@ -1,0 +1,13 @@
+drop table if exists t_user;
+
+/*==============================================================*/
+/* Table: t_user                                                */
+/*==============================================================*/
+create table t_user
+(
+   id                   bigint not null  comment '',
+   loginname            varchar(255)  comment '',
+   loginPWD             varchar(255)  comment '',
+   realName             varchar(255)  comment '',
+   primary key (id)
+);
